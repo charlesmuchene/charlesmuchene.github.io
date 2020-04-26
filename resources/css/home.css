@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Lato');
+
+* {
+    font-family: 'Montserrat', 'Lato', sans-serif;        
+}
+
+p {
+    line-height: 2;
+    text-align: justify;
+}
+
+body {
+    margin: 0;
+}
+
+.hero {
+    background-image: initial;
+    background: url(../images/background.jpg) no-repeat; /* Photo by Anas Alshanti on Unsplash */
+    background-size: cover;
+    height: 256px;
+    background-position: center;
+}
+
+#username {
+    display: flex;
+    height: 256px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#firstname {
+    color: white;
+    -webkit-text-stroke: 1px black;
+    text-shadow:
+       2px 2px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+#lastname {
+    color: green;
+    -webkit-text-stroke: 1px black;
+    text-shadow:
+       2px 2px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#subtitle {
+    margin-top: 20px;
+}
+
+.title {
+    font-size: 48px;
+    color: green;
+    text-align: center;
+    display: block;
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+
+.now {
+    margin-bottom: 48px;
+}
+
+.now h4 {
+    margin-top: 24px;
+}
+
+.now-image {
+    width: 240px;
+}
+
+#now-title {
+    margin-top: 48px;
+}
+
+.company-logo {
+    width: 240px;
+    justify-self: center;
+    margin-bottom: 24px;
+}
+
+
+.inner-title {
+    font-size: 24px;
+    color: green;
+    font-weight: bold;
+}
+
+.image-container img {
+    width: 240px;
+}
+
+.store-image {
+    height: 76px;
+}
+
+.portfolio {
+    margin-bottom: 48px;
+}
+
+footer {
+    background-image: initial;
+    background: url(../images/footer.jpg) no-repeat; /* Photo by Chen Hu on Unsplash */
+    background-size: cover;
+    height: 640px;
+    margin-top: 180px;
+    background-position: center;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
+.image-container img {
+    width: 42px;
+    height: 42px;
+    margin: 0 10px;
+}
+/*
+#footer-content {
+    display: grid;
+    width: 60%;
+    margin: auto;
+    height: 320px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+#profile-image-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile-image {
+    width: 240px;
+    height: 240px;
+}
+
+#contacts-div img {
+    margin: 0 10px;
+    width: 42px;
+    height: 42px;
+}
+/*
+.presentation {
+    width: 100%;
+    margin: auto;
+}
+
+.speaker-deck {
+    left: 0;
+    width: 100%;
+    height: 0;
+    position: relative;
+    padding-bottom: 74.9288%;
+}
+
+.speaker-deck-frame {
+    border: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.presentation {
+    margin-bottom: 120px;
+    text-align: justify;
+}
+
+.presentation-image {
+    width: 72px;
+}
+
+.presentation-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.presentation-title span {
+    margin-left: 15px;
+}
+
+.presentation-details {
+    display: grid;
+    align-content: center;
+}
+
+#safeboda-logo {
+    width: 180px;   
+}
+
+#community-coding-image {
+    width: 70%;
+    border: 1px solid green;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 1px 2px lightgray;
+}
+
+#projects {
+    padding-top: 48px;
+}
+
+.project {
+    margin-bottom: 120px;
+    text-align: justify;
+}
+
+.project-image {
+    width: 72px;
+}
+
+#cladlight-image {
+    width: 80%;
+}
+
+.project-video {
+    left: 0;
+    width: 100%;
+    height: 0;
+    position: relative;
+    padding-bottom: 74.9288%;
+}
+
+.project-video-frame  {
+    border: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+} */
+
+
+@media (min-width: 768px) {
+    .hero>#username>div:first-child {
+        font-size: 72px;
+    }
+
+    .hero>#username>div:nth-child(2) {
+        font-size: 24px;
+    }
+
+    .hero {
+        height: 576px;
+    }
+
+    #username {
+        height: 576px;
+    }
+
+    .title {
+        font-size: 60px;
+    }
+
+    .now h4 {
+        margin-top: 0;
+    }
+
+    footer {
+        height: 320px;
+    }
+}
+
+@media (min-width: 992px) {
+    .hero>#username>div:first-child {
+        font-size: 96px;
+    }
+
+    .hero>#username>div:nth-child(2) {
+        font-size: 36px;
+    }
+
+    .hero {
+        height: 950px;
+    }
+
+    #username {
+        height: 950px;
+    }
+
+    main {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .title {
+        margin-bottom: 56px;
+    }
+
+    #now h4 {
+        text-align: start;
+    }
+
+    /*.now {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 25px;
+        align-items: center;
+    }
+
+    .now-content {
+        margin: inherit;
+    }
+
+    #now-title {
+        margin-top: 120px;
+    }*/
+} 
