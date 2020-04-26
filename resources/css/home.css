@@ -70,22 +70,6 @@ main {
     font-weight: bold;
 }
 
-.now {
-    margin-bottom: 48px;
-}
-
-.now h4 {
-    margin-top: 24px;
-}
-
-.now-image {
-    width: 240px;
-}
-
-#now-title {
-    margin-top: 48px;
-}
-
 .company-logo {
     width: 240px;
     justify-self: center;
